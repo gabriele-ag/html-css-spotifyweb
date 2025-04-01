@@ -25,11 +25,6 @@ img {
     height: 100vh;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 100%;
-}
-
 .flex {
     display: flex;
 }
@@ -58,6 +53,14 @@ ul li {
     color: rgb(118, 120, 125);
 }
 
+.col {
+    width: 20%;
+}
+
+.mar-y30 {
+    margin: 30px 0;
+}
+
 /* Nav-Album Section */
 
 /* Nav-bar */
@@ -67,9 +70,29 @@ ul li {
     background-color: rgb(0, 0, 0);
 }
 
+.logo-small {
+    display: none;
+}
+
+.effettuaup {
+    height: 75px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+/* Album */
+
+.album {
+    padding: 20px;
+}
+
 .right-part {
     width: calc(100% - 180px);
     height: 92vh;
+    overflow: auto;
+    margin: 0 auto;
     background-color: rgb(20, 25, 34);
 }
 
@@ -85,16 +108,8 @@ ul li {
 
 }
 
-/* Album */
-
-.right-part {
-    overflow: auto;
-    margin: 0 auto;
-}
-
 .fila-album {
-    justify-content: space-between;
-    align-items: center;
+    gap: 20px;
 }
 
 

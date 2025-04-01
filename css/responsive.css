@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    .fila-album {
+        flex-wrap: wrap;
+    }
+
+    .col {
+        min-width: 40%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .playlist-title, .new-playlist, .logo-big {
+        display: none;
+    }
+    
+    .logo-small {
+        display: block;
+        width: 20px;
+    }
+
+    .nav {
+        width: 50px;
+        height: 92vh;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .right-part {
+        width: 100%;
+    }
+
+    .col {
+        min-width: 45%;
+    }
+    
+}
