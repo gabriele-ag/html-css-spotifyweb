@@ -10,4 +10,51 @@ img {
     max-width: 100%
 }
 
+/* Utilities */
+
+:root {
+    --common-color-1: #282828;
+}
+
 /* LAYOUT */
+/* COMMON */
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Nav-Album Section */
+.nav {
+    width: 180px;
+    height: 92vh;
+    background-color: #000000;
+}
+
+.album {
+    width: calc(100% - 180px);
+    height: 92vh;
+    background-color: #141922;
+}
+
+.effettuaup {
+    height: 75px;
+    background-color: #000000;
+    opacity: 50;
+}
+
+
+/* Sidebar-play */
+
+.sidebar {
+    height: 8vh;
+    background-color: var(--common-color-1);
+}
+
+
+
+
