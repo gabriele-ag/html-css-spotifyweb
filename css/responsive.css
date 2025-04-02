@@ -5,8 +5,9 @@
     }
 
     .col {
-        min-width: 45%;
+        min-width: 47%;
     }
+
 }
 
 @media screen and (max-width: 425px) {

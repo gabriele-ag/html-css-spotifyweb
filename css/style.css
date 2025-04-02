@@ -79,7 +79,7 @@ ul {
     font-weight: bold;
 }
 
-.list-nav, .download {
+.list-nav, .download, .nav-album {
     font-size: 0.8rem;
 }
 
@@ -164,8 +164,8 @@ ul {
 .btn {
     display: inline-block;
     text-align: center;
-    color: white;
-    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 20px;
     padding: 8px 25px;
     font-size: 0.7rem;
@@ -185,12 +185,20 @@ ul {
 
 .img-title {
     font-size: 0.8rem;
+    width: 0;
+    min-width: 100%;
 }
 
 .img-title2 {
     font-weight: bold;
     font-size: 0.7rem
 }
+
+.img-fila-2 {
+    border-radius: 200px;
+}
+
+
 
 /* Sidebar-play */
 
@@ -206,9 +214,32 @@ ul {
     background-color: aquamarine;
 }
 
+
+/* middle-sidebarplay */
+
 .middle-sidebarplay {
     width: 40%;
     /* debug */
     background-color: blue;
 }
+
+.middle-sidebarplay-top {
+    justify-content: center;
+    align-items: center;
+    gap: 0 30px;
+    padding-top: 5px;
+}
+
+.middle-sidebarplay-top > li {
+    color: rgb(255, 255, 255);
+}
+
+.btn-sidebar {
+    font-size: 1.1rem;
+}
+
+.play {
+    font-size: 1.5rem;
+}
+
 
