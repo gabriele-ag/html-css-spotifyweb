@@ -83,10 +83,6 @@ ul {
     font-size: 0.8rem;
 }
 
-.d-none {
-    display: none;
-}
-
 
 /* Nav-Album Section */
 
@@ -173,7 +169,6 @@ ul {
 }
 
 
-
 .fila-album {
     gap: 10px;
 }
@@ -245,6 +240,7 @@ ul {
     width: 70%;
 }
 
+/* middle-sidebarplay-top */
 .middle-sidebarplay-top {
     justify-content: center;
     align-items: center;
