@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -19,29 +19,30 @@
             <div class="flex">
                 <!-- Nav-bar -->
                 <div class="nav">
-                    <img src="./img/logo.svg" alt="logo" class="logo-big">
-                    <img src="./img/logo-small.svg" alt="logosmall" class="logo-small">
+                    <img src="./img/logo.svg" alt="logo" class="logo-big mar-bot15">
+                    <img src="./img/logo-small.svg" alt="logosmall" class="logo-small mar-bot15">
                     <div class="navbar">
-                        <ul class="">
-                            <li>Lorem</li>
-                            <li>Lorem</li>
-                            <li>Lorem</li>
+                        <ul class="list-nav mar-bot15 ">
+                            <li class="pad-y10"><i class="fa-solid fa-house pad-rg"></i>Home</li>
+                            <li class="pad-y10"><i class="fa-solid fa-magnifying-glass pad-rg"></i>Cerca</li>
+                            <li class="pad-y10"><i class="fa-solid fa-lines-leaning pad-rg"></i> La tua libreria</li>
                         </ul>
                     </div>
-                    <h4 class="playlist-title">Playlist</h4>
-                    <ul class="new-playlist">
-                        <li>Crea Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
+                    <h4 class="playlist-title mar-bot15">Playlist</h4>
+                    <ul class="list-nav">
+                        <li class="pad-y10"><button class="btn-plus">+</button><span class="mar-lf">Crea Playlist</span></li>
+                        <li class="pad-y10">Nuova Playlist</li>
+                        <li class="pad-y10">Nuova Playlist</li>
+                        <li class="pad-y10">Nuova Playlist</li>
+                        <li class="pad-y10">Nuova Playlist</li>
+                        <li class="pad-y10">Nuova Playlist</li>
+                        <li class="pad-y10">Nuova Playlist</li>
+                        <li class="pad-y10">Nuova Playlist</li>
                     </ul>
-                    <div class="Utente">
-                        <a href="downloadapp">Installa app</a>
-                        <h4>John Doe</h4>
+                    <div class="box-utente">
+                        <a href="downloadapp" class="download grey-txt"><i class="fa-regular fa-circle-down pad-rg"></i>Installa app</a>
+                        <div class="divider"></div>
+                        <i class="fa-regular fa-circle-user icon-account"></i><h4 class="utente mar-lf">John Doe</h4>
                     </div>
                 </div>
                 <!-- /Nav-bar -->
@@ -49,49 +50,49 @@
                 <!-- Album -->
                 <div class="right-part">
                     <div class="effettuaup flex">
-                        <span><a href="Upgradebutton" class="btn">Effettua l'upgrade</a></span>
+                        <span><a href="Upgradebutton" class="btn">EFFETTUA L'UPGRADE</a></span>
                     </div>
                     <div class="album">
                         <ul class="nav-album flex">
-                            <li>Lorem</li>
-                            <li>Lorem</li>
-                            <li>Lorem</li>
-                            <li>Lorem</li>
-                            <li>Lorem</li>
-                            <li>Lorem</li>
+                            <li><a href="inevidenza">IN EVIDENZA</a></li>
+                            <li><a href="podcast">PODCAST</a></li>
+                            <li><a href="classifiche">CLASSIFICHE</a></li>
+                            <li><a href="genereiemood">GENERI E MOOD</a></li>
+                            <li><a href="nuoveuscite">NUOVE USCITE</a></li>
+                            <li><a href="scopri">SCOPRI</a></li>
                         </ul>
                     
                         <h2 class="mar-y30">Recently Played</h2>
                         <div class="fila-album flex">
                             <div class="col">
                                 <img src="./img/metal_lifting.jpg" alt="Album1" class="img-fila">
-                                <h4 class="text-center">Lorem ipsum</h4>
-                                <p class="grey-txt text-center">Subtitle</p>
+                                <h4 class="img-title text-center">Lorem ipsum</h4>
+                                <p class="img-title2 grey-txt text-center">Subtitle</p>
                             </div>
                             <div class="col">
                                 <img src="./img/stranger.jpeg" alt="Album2" class="img-fila">
-                                <h4 class="text-center">Lorem ipsum</h4>
-                                <p class="grey-txt text-center">Subtitle</p>
+                                <h4 class="img-title text-center">Lorem ipsum</h4>
+                                <p class="img-title2 grey-txt text-center">Subtitle</p>
                             </div>
                             <div class="col">
                                 <img src="./img/aquietplace.jpeg" alt="Album3" class="img-fila">
-                                <h4 class="text-center">Lorem ipsum</h4>
-                                <p class="grey-txt text-center">Subtitle</p>
+                                <h4 class="img-title text-center">Lorem ipsum</h4>
+                                <p class="img-title2 grey-txt text-center">Subtitle</p>
                             </div>
                             <div class="col">
                                 <img src="./img/split.jpeg" alt="Album4" class="img-fila">
-                                <h4 class="text-center">Lorem ipsum</h4>
-                                <p class="grey-txt text-center">Subtitle</p>
+                                <h4 class="img-title text-center">Lorem ipsum</h4>
+                                <p class="img-title2 grey-txt text-center">Subtitle</p>
                             </div>
                             <div class="col">
                                 <img src="./img/cure.jpeg" alt="Album5" class="img-fila">
-                                <h4 class="text-center">Lorem ipsum</h4>
-                                <p class="grey-txt text-center">Subtitle</p>
+                                <h4 class="img-title text-center">Lorem ipsum</h4>
+                                <p class="img-title2 grey-txt text-center">Subtitle</p>
                             </div>
                             <div class="col">
                                 <img src="./img/sinister.jpeg" alt="Album6" class="img-fila">
-                                <h4 class="text-center">Lorem ipsum</h4>
-                                <p class="grey-txt text-center">Subtitle</p>
+                                <h4 class="img-title text-center">Lorem ipsum</h4>
+                                <p class="img-title2 img-title2 grey-txt text-center">Subtitle</p>
                             </div>
                         </div>
 
@@ -103,12 +104,12 @@
                         <div class="fila-album flex">
                             <div class="col">
                                 <img src="./img/radar.jpeg" alt="Album1" class="img-fila-2">
-                                <h4 class="text-center">Lorem ipsum</h4>
+                                <h4 class="img-title text-center">Lorem ipsum</h4>
                             </div>
                                 
                             <div class="col">
                                 <img src="./img/mixdaily.jpeg" alt="Album2" class="img-fila-2">
-                                <h4 class="text-center">Lorem ipsum</h4>
+                                <h4 class="img-title text-center">Lorem ipsum</h4>
                             </div>
                         </div>
 
@@ -120,12 +121,12 @@
                         <div class="fila-album flex">
                             <div class="col">
                                 <img src="./img/youg.jpeg" alt="Album1" class="img-fila-2">
-                                <h4 class="text-center">Lorem ipsum</h4>
+                                <h4 class="img-title text-center">Lorem ipsum</h4>
                             </div>
                                 
                             <div class="col">
                                 <img src="./img/einaudi.jpeg" alt="Album2" class="img-fila-2">
-                                <h4 class="text-center">Lorem ipsum</h4>
+                                <h4 class="img-title text-center">Lorem ipsum</h4>
                             </div>   
                         </div>
                     </div>

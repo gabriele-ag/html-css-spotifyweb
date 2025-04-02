@@ -1,10 +1,11 @@
 @media screen and (max-width: 768px) {
     .fila-album {
         flex-wrap: wrap;
+        gap: 20px 10px;
     }
 
     .col {
-        min-width: 40%;
+        min-width: 45%;
     }
 }
 
