@@ -127,7 +127,7 @@ ul {
 }
 
 .box-utente {
-    margin-top: 90px;
+    margin-top: 220px;
 }
 
 .icon-account {
@@ -205,7 +205,7 @@ ul {
 /* Sidebar-play */
 
 .sidebar {
-    height: 62px;
+    height: 8vh;
     background-color: var(--common-color-1);
     /* justify-content: space-between; */
     align-items: center;
