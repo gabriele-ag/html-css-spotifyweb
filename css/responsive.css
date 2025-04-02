@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 425px) {
-    .playlist-title, .new-playlist, .logo-big {
+    .playlist-title, .new-playlist, .logo-big, .nav-text, .divider {
         display: none;
     }
     
@@ -20,9 +20,17 @@
     }
 
     .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         width: 50px;
         height: 92vh;
         background-color: rgb(0, 0, 0);
+    }
+
+    .navbar {
+        position: absolute;
+        top: 50px;
     }
 
     .right-part {
@@ -32,5 +40,9 @@
     .col {
         min-width: 45%;
     }
-    
+
+    .icon-mobile {
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
 }

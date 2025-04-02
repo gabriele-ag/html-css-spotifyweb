@@ -83,6 +83,10 @@ ul {
     font-size: 0.8rem;
 }
 
+.d-none {
+    display: none;
+}
+
 
 /* Nav-Album Section */
 
@@ -97,11 +101,6 @@ ul {
 .logo-big {
     width: 80%;
 }
-
-.logo-small {
-    display: none;
-}
-
 .effettuaup {
     height: 75px;
     position: sticky;
@@ -196,7 +195,7 @@ ul {
 /* Sidebar-play */
 
 .sidebar {
-    height: 8vh;
+    height: 62px;
     background-color: var(--common-color-1);
     justify-content: space-between;
 }
