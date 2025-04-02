@@ -62,7 +62,7 @@ a {
     text-decoration: none;
 }
 
-h4, h2, h3 {
+h4, h2, h3, h5 {
     color: rgb(255, 255, 255);
 }
 
@@ -172,6 +172,8 @@ ul {
     
 }
 
+
+
 .fila-album {
     gap: 10px;
 }
@@ -205,41 +207,95 @@ ul {
 .sidebar {
     height: 62px;
     background-color: var(--common-color-1);
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 0 10px;
+    /* gap: 30px; */
 }
 
 .left-sidebarplay, .right-sidebarplay {
     width: 20%;
-    /* debug */
-    background-color: aquamarine;
+}
+
+    /* LEFT */
+.left-sidebarplay {
+    align-items: center;
+    gap: 10px;
+}
+
+.img-preview {
+    min-width: 15%;
+    max-width: 15%;
 }
 
 
+.nome-brano {
+    color: var(--common-color-2);
+    font-size: 0.6rem;
+}
+
+.btn-side {
+    color: rgb(255, 255, 255);
+}
+
+    /* MIDDLE */
 /* middle-sidebarplay */
 
 .middle-sidebarplay {
-    width: 40%;
-    /* debug */
-    background-color: blue;
+    width: 70%;
 }
 
 .middle-sidebarplay-top {
     justify-content: center;
     align-items: center;
-    gap: 0 30px;
-    padding-top: 5px;
+    gap: 0 20px;
 }
 
 .middle-sidebarplay-top > li {
     color: rgb(255, 255, 255);
 }
 
-.btn-sidebar {
-    font-size: 1.1rem;
+.btn-side {
+    font-size: 0.7rem;
 }
 
 .play {
     font-size: 1.5rem;
 }
 
+/* middle-sidebarplay-bottom */
 
+.middle-sidebarplay-bottom {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.music-bar {
+    width: 50%;
+    height: 1px;
+    border: 2px solid var(--common-color-2);
+    border-radius: 50px;
+    background-color: var(--common-color-2);
+}
+
+.time {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 0.7rem;
+}
+
+    /* RIGHT */
+
+.right-sidebarplay {
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+} 
+.volume-bar {
+    width: 40%;
+    min-width: 20%;
+    height: 1px;
+    border: 2px solid var(--common-color-2);
+    border-radius: 50px;
+}
