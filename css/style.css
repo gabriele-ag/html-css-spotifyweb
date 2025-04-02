@@ -83,6 +83,10 @@ ul {
     font-size: 0.8rem;
 }
 
+.d-none {
+    display: none;
+}
+
 
 /* Nav-Album Section */
 
