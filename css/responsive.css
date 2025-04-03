@@ -1,16 +1,15 @@
 @media screen and (max-width: 768px) {
     .fila-album {
         flex-wrap: wrap;
-        gap: 20px 10px;
     }
 
     .col {
-        width: calc();
+        width: calc((100% - 50px) / 4);
     }
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 560px) {
     .playlist-title, .new-playlist, .logo-big, .nav-text, .divider {
         display: none;
     }
@@ -32,7 +31,7 @@
     }
 
     .col {
-        min-width: 45%;
+        width: calc((100% - 50px) / 2);
     }
 
     .icon-mobile {
