@@ -16,10 +16,11 @@ img {
 :root {
     --common-color-1: rgb(40, 40, 40);
     --common-color-2: rgb(118, 120, 125);
+    --common-color-3: rgb(173, 255, 47);
 }
 
 .col {
-    max-width: 20%;
+    width: calc((100% - 50px) / 6);
 }
 
 .mar-y30 {
@@ -31,7 +32,7 @@ img {
 }
 
 .mar-bot15 {
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 .pad-rg {
@@ -62,6 +63,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: white;
+}
+
 h4, h2, h3, h5 {
     color: rgb(255, 255, 255);
 }
@@ -74,7 +79,7 @@ ul {
     list-style: none;
 }
 
-.grey-txt, ul li, a {
+.grey-txt {
     color: var(--common-color-2);
     font-weight: bold;
 }
@@ -96,11 +101,18 @@ ul {
     width: 180px;
     height: 92vh;
     background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.list-nav {
+    flex-grow: 1;
 }
 
 .logo-big {
     width: 80%;
 }
+
 .effettuaup {
     height: 75px;
     position: sticky;
@@ -124,10 +136,6 @@ ul {
 .utente {
     display: inline-block;
     font-size: 1rem;
-}
-
-.box-utente {
-    margin-top: 220px;
 }
 
 .icon-account {
@@ -175,6 +183,7 @@ ul {
 
 .fila-album {
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .nav-album {
@@ -199,6 +208,37 @@ ul {
     border-radius: 200px;
 }
 
+.btn:hover {
+    padding: 9px 26px;
+    font-size: 0.8rem;
+}
+
+.nav-album-btn:hover {
+    border-bottom: 2px solid var(--common-color-3);
+}
+
+.card-album {
+    position: relative;
+}
+
+.card-album i {
+    display: none;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-album:hover {
+    .fa-play-circle {
+        display: block;
+    }
+
+    .img-fila, .img-fila-2 {
+        opacity: 0.2;
+    }
+}
 
 
 /* Sidebar-play */
@@ -225,6 +265,7 @@ ul {
 .img-preview {
     min-width: 15%;
     max-width: 15%;
+    object-fit: cover;
 }
 
 

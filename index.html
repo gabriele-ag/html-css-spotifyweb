@@ -20,26 +20,26 @@
             <div class="flex">
 
                 <!-- Nav-bar -->
-                <div class="nav">
+                <div class="nav flex">
                     <img src="./img/logo.svg" alt="logo" class="logo-big mar-bot15">
                     <img src="./img/logo-small.svg" alt="logosmall" class="logo-small mar-bot15 d-none">
                     <div class="navbar">
                         <ul class="list-nav mar-bot15 ">
-                            <li class="pad-y10"><i class="fa-solid fa-house pad-rg icon-mobile"></i><span class="nav-text">Home</span></li>
-                            <li class="pad-y10"><i class="fa-solid fa-magnifying-glass pad-rg icon-mobile"></i><span class="nav-text">Cerca</span></li>
-                            <li class="pad-y10"><i class="fa-solid fa-lines-leaning pad-rg icon-mobile"></i><span class="nav-text"> La tua libreria</span></li>
+                            <li class="pad-y10"><a href="Home" class="grey-txt"><i class="fa-solid fa-house pad-rg icon-mobile"></i><span class="nav-text">Home</span></a></li>
+                            <li class="pad-y10"><a href="Cerca" class="grey-txt"><i class="fa-solid fa-magnifying-glass pad-rg icon-mobile"></i><span class="nav-text">Cerca</span></a></li>
+                            <li class="pad-y10"><a href="Latualibreria" class="grey-txt"><i class="fa-solid fa-lines-leaning pad-rg icon-mobile"></i><span class="nav-text"> La tua libreria</span></a></li>
                         </ul>
                     </div>
                     <h4 class="playlist-title mar-bot15">Playlist</h4>
                     <ul class="list-nav">
-                        <li class="pad-y10 nav-text"><button class="btn-plus">+</button><span class="mar-lf">Crea Playlist</span></li>
-                        <li class="pad-y10 nav-text">Nuova Playlist</li>
-                        <li class="pad-y10 nav-text">Nuova Playlist</li>
-                        <li class="pad-y10 nav-text">Nuova Playlist</li>
-                        <li class="pad-y10 nav-text">Nuova Playlist</li>
-                        <li class="pad-y10 nav-text">Nuova Playlist</li>
-                        <li class="pad-y10 nav-text">Nuova Playlist</li>
-                        <li class="pad-y10 nav-text">Nuova Playlist</li>
+                        <li class="pad-y10 nav-text"><button class="btn-plus">+</button><a href="creaplaylist"><span class="mar-lf grey-txt">Crea Playlist</span></a></li>
+                        <li class="pad-y10 nav-text"><a href="nuovaplaylist" class="grey-txt">Nuova Playlist</a></li>
+                        <li class="pad-y10 nav-text"><a href="nuovaplaylist" class="grey-txt">Nuova Playlist</a></li>
+                        <li class="pad-y10 nav-text"><a href="nuovaplaylist" class="grey-txt">Nuova Playlist</a></li>
+                        <li class="pad-y10 nav-text"><a href="nuovaplaylist" class="grey-txt">Nuova Playlist</a></li>
+                        <li class="pad-y10 nav-text"><a href="nuovaplaylist" class="grey-txt">Nuova Playlist</a></li>
+                        <li class="pad-y10 nav-text"><a href="nuovaplaylist" class="grey-txt">Nuova Playlist</a></li>
+                        <li class="pad-y10 nav-text"><a href="nuovaplaylist" class="grey-txt">Nuova Playlist</a></li>
                     </ul>
                     <div class="box-utente">
                         <a href="downloadapp" class="download grey-txt"><i class="fa-regular fa-circle-down pad-rg icon-mobile"></i><span class="nav-text">Installa app</span></a>
@@ -52,48 +52,63 @@
                 <!-- Album -->
                 <div class="right-part">
                     <div class="effettuaup flex">
-                        <span><a href="Upgradebutton" class="btn">EFFETTUA L'UPGRADE</a></span>
+                        <a href="Upgradebutton" class="btn">EFFETTUA L'UPGRADE</a>
                     </div>
                     <div class="album">
                         <ul class="nav-album flex">
-                            <li><a href="inevidenza">IN EVIDENZA</a></li>
-                            <li><a href="podcast">PODCAST</a></li>
-                            <li><a href="classifiche">CLASSIFICHE</a></li>
-                            <li><a href="genereiemood">GENERI E MOOD</a></li>
-                            <li><a href="nuoveuscite">NUOVE USCITE</a></li>
-                            <li><a href="scopri">SCOPRI</a></li>
+                            <li><a href="inevidenza" class="nav-album-btn grey-txt">IN EVIDENZA</a></li>
+                            <li><a href="podcast" class="nav-album-btn grey-txt">PODCAST</a></li>
+                            <li><a href="classifiche" class="nav-album-btn grey-txt">CLASSIFICHE</a></li>
+                            <li><a href="genereiemood" class="nav-album-btn grey-txt">GENERI E MOOD</a></li>
+                            <li><a href="nuoveuscite" class="nav-album-btn grey-txt">NUOVE USCITE</a></li>
+                            <li><a href="scopri" class="nav-album-btn grey-txt">SCOPRI</a></li>
                         </ul>
                         <!-- Recently Played -->
                         <h2 class="mar-y30">Recently Played</h2>
                         <div class="fila-album flex">
                             <div class="col">
-                                <img src="./img/metal_lifting.jpg" alt="Album1" class="img-fila">
+                                <div class="card-album">
+                                    <a href="playbuttonalbum"><img src="./img/metal_lifting.jpg" alt="Album1" class="img-fila"><i class="fa-regular fa-play-circle hover"></i></a>
+                                </div>
                                 <h4 class="img-title text-center pad-y10">Heavy Metal</h4>
                                 <p class="img-title2 grey-txt text-center">Subtitle</p>
                             </div>
                             <div class="col">
-                                <img src="./img/stranger.jpeg" alt="Album2" class="img-fila">
+                                <div class="card-album">
+                                    <a href="playbuttonalbum"><img src="./img/stranger.jpeg" alt="Album2" class="img-fila"><i class="fa-regular fa-play-circle"></i></a>
+                                </div>
                                 <h4 class="img-title text-center pad-y10">Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h4>
                                 <p class="img-title2 grey-txt text-center">Kyle Dixon & Michael Stein</p>
                             </div>
                             <div class="col">
-                                <img src="./img/aquietplace.jpeg" alt="Album3" class="img-fila">
+                                <div class="card-album">
+                                    <a href="playbuttonalbum"><img src="./img/aquietplace.jpeg" alt="Album3" class="img-fila"><i class="fa-regular fa-play-circle"></i></a>
+                                </div>
                                 <h4 class="img-title text-center pad-y10">A quiet place
                                 </h4>
                                 <p class="img-title2 grey-txt text-center">Subtitle</p>
                             </div>
                             <div class="col">
-                                <img src="./img/split.jpeg" alt="Album4" class="img-fila">
+                                <div class="card-album">
+                                    <a href="playbuttonalbum"><img src="./img/split.jpeg" alt="Album4" class="img-fila">
+                                    <i class="fa-regular fa-play-circle"></i></a>
+                            </div>
                                 <h4 class="img-title text-center pad-y10">Split</h4>
                                 <p class="img-title2 grey-txt text-center">Subtitle</p>
                             </div>
                             <div class="col">
-                                <img src="./img/cure.jpeg" alt="Album5" class="img-fila">
+                                <div class="card-album">
+                                    <a href="playbuttonalbum"><img src="./img/cure.jpeg" alt="Album5" class="img-fila">
+                                    <i class="fa-regular fa-play-circle"></i></a>
+                            </div>
                                 <h4 class="img-title text-center pad-y10">A cure for wellness</h4>
                                 <p class="img-title2 grey-txt text-center">Subtitle</p>
                             </div>
                             <div class="col">
-                                <img src="./img/sinister.jpeg" alt="Album6" class="img-fila">
+                                <div class="card-album">
+                                    <a href="playbuttonalbum"><img src="./img/sinister.jpeg" alt="Album6" class="img-fila">
+                                    <i class="fa-regular fa-play-circle"></i></a>
+                            </div>
                                 <h4 class="img-title text-center pad-y10">Sinister</h4>
                                 <p class="img-title2 img-title2 grey-txt text-center">Subtitle</p>
                             </div>
@@ -108,12 +123,18 @@
 
                         <div class="fila-album flex">
                             <div class="col">
-                                <img src="./img/radar.jpeg" alt="Album1" class="img-fila">
+                                <div class="card-album">
+                                <a href="playbuttonalbum"><img src="./img/radar.jpeg" alt="Album1" class="img-fila">
+                                <i class="fa-regular fa-play-circle"></i></a>
+                                </div>
                                 <h4 class="img-title text-center pad-y10">Release Radar</h4>
                             </div>
                                 
                             <div class="col">
-                                <img src="./img/mixdaily.jpeg" alt="Album2" class="img-fila">
+                                <div class="card-album">
+                                    <a href="playbuttonalbum"><img src="./img/mixdaily.jpeg" alt="Album2" class="img-fila">
+                                    <i class="fa-regular fa-play-circle"></i></a>
+                                </div>
                                 <h4 class="img-title text-center pad-y10">Daily Mix 1</h4>
                             </div>
                         </div>
@@ -126,12 +147,19 @@
                         </div>
                         <div class="fila-album flex">
                             <div class="col">
-                                <img src="./img/youg.jpeg" alt="Album1" class="img-fila-2">
+                                <div class="card-album">
+                                    <a href="playbuttonalbum"><img src="./img/youg.jpeg"    alt="Album1" class="img-fila-2">
+                                    <i class="fa-regular fa-play-circle"></i></a>
+                                </div>
                                 <h4 class="img-title text-center pad-y10">Lorem ipsum</h4>
                             </div>
                                 
                             <div class="col">
-                                <img src="./img/einaudi.jpeg" alt="Album2" class="img-fila-2">
+                                <div class="card-album">
+                                    <a href="playbuttonalbum">
+                                    <img src="./img/einaudi.jpeg" alt="Album2" class="img-fila-2">
+                                    <i class="fa-regular fa-play-circle"></i></a>
+                                </div>
                                 <h4 class="img-title text-center pad-y10">Lorem ipsum</h4>
                             </div>   
                         </div>
