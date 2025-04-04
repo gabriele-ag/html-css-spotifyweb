@@ -99,7 +99,7 @@ ul {
 .nav {
     padding: 15px 15px;
     width: 180px;
-    height: 92vh;
+    height: calc(100vh - 80px);
     background-color: rgb(0, 0, 0);
     justify-content: space-between;
     flex-direction: column;
@@ -107,6 +107,11 @@ ul {
 
 .list-nav {
     flex-grow: 1;
+    position: relative;
+}
+
+.creaplaylistnav {
+    overflow-y: auto;
 }
 
 .logo-big {
@@ -144,6 +149,19 @@ ul {
     vertical-align: middle;
 }
 
+.borderleftgreen {
+    display: none;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    height: 20px;
+    border-left: 2px solid var(--common-color-3);
+}
+
+.borderleftgreen:hover {
+    display: block;
+}
+
 /* Album */
 
 .album {
@@ -152,7 +170,7 @@ ul {
 
 .right-part {
     width: calc(100% - 180px);
-    height: 92vh;
+    height: calc(100vh - 80px);
     overflow: auto;
     margin: 0 auto;
     background-color: rgb(20, 25, 34);
@@ -165,6 +183,7 @@ ul {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 9999;
     padding-right: 20px;
     background-color: rgb(0, 0, 0, 0.6);
 }
@@ -244,7 +263,7 @@ ul {
 /* Sidebar-play */
 
 .sidebar {
-    height: 8vh;
+    height: 80px;
     background-color: var(--common-color-1);
     /* justify-content: space-between; */
     align-items: center;

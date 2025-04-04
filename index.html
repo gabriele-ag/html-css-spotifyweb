@@ -14,24 +14,22 @@
 
 <body>
     <div class="wrapper">
-        <section class="spotify-webapp">
-
             <!-- Nav-Album Section -->
-            <div class="flex">
+            <section class="flex">
 
                 <!-- Nav-bar -->
                 <div class="nav flex">
                     <img src="./img/logo.svg" alt="logo" class="logo-big mar-bot15">
                     <img src="./img/logo-small.svg" alt="logosmall" class="logo-small mar-bot15 d-none">
                     <div class="navbar">
-                        <ul class="list-nav mar-bot15 ">
+                        <ul class="list-nav mar-bot15">
                             <li class="pad-y10"><a href="Home" class="grey-txt"><i class="fa-solid fa-house pad-rg icon-mobile"></i><span class="nav-text">Home</span></a></li>
                             <li class="pad-y10"><a href="Cerca" class="grey-txt"><i class="fa-solid fa-magnifying-glass pad-rg icon-mobile"></i><span class="nav-text">Cerca</span></a></li>
                             <li class="pad-y10"><a href="Latualibreria" class="grey-txt"><i class="fa-solid fa-lines-leaning pad-rg icon-mobile"></i><span class="nav-text"> La tua libreria</span></a></li>
                         </ul>
                     </div>
                     <h4 class="playlist-title mar-bot15">Playlist</h4>
-                    <ul class="list-nav">
+                    <ul class="list-nav creaplaylistnav">
                         <li class="pad-y10 nav-text"><button class="btn-plus">+</button><a href="creaplaylist"><span class="mar-lf grey-txt">Crea Playlist</span></a></li>
                         <li class="pad-y10 nav-text"><a href="nuovaplaylist" class="grey-txt">Nuova Playlist</a></li>
                         <li class="pad-y10 nav-text"><a href="nuovaplaylist" class="grey-txt">Nuova Playlist</a></li>
@@ -168,56 +166,55 @@
                 </div>
                 <!-- /Album -->
 
-            </div>
+            </section>
             <!-- /Nav-Album Section -->
 
             <!-- Sidebar-play -->
-            <div class="sidebar flex">
+                <div class="sidebar flex">
 
-                <!-- Left -->
-                <div class="left-sidebarplay flex">
-                    <img src="./img/cure.jpeg" alt="preview-play" class="img-preview">
-                    <div class="detail-preview">
-                    <h5 class="nome-album">Sinister</h5>
-                    <h6 class="nome-brano">Brano Nome</h6>
+                    <!-- Left -->
+                    <div class="left-sidebarplay flex">
+                        <img src="./img/cure.jpeg" alt="preview-play" class="img-preview">
+                        <div class="detail-preview">
+                        <h5 class="nome-album">Sinister</h5>
+                        <h6 class="nome-brano">Brano Nome</h6>
+                        </div>
+                        <div>
+                        <p class="btn-side"><i class="fa-solid fa-heart pad-rg"></i> <i class="fa-solid fa-folder"></i></p>
+                        </div>   
                     </div>
-                    <div>
-                    <p class="btn-side"><i class="fa-solid fa-heart pad-rg"></i> <i class="fa-solid fa-folder"></i></p>
-                    </div>   
-                </div>
-                <!-- / Left -->
+                    <!-- / Left -->
 
-                <!-- Middle -->
-                <div class="middle-sidebarplay">
-                    <div>
-                        <ul class="middle-sidebarplay-top flex">
-                            <li><i class="fa-solid fa-random"></i></li>
-                            <li><i class="fa-solid fa-step-backward"></i></li>
-                            <li class="play"><i class="fa-regular fa-play-circle"></i></li>
-                            <li><i class="fa-solid fa-step-forward"></i></li>
-                            <li><i class="fa-solid fa-redo-alt"></i></li>
-                        </ul>
-                    </div>
-                    <div class="middle-sidebarplay-bottom flex">
-                        <div class="time">0:25</div>
-                        <div class="music-bar"></div>
-                        <div class="time">4:35</div>
-                    </div>
-                <!-- / Middle -->
+                    <!-- Middle -->
+                    <div class="middle-sidebarplay">
+                        <div>
+                            <ul class="middle-sidebarplay-top flex">
+                                <li><i class="fa-solid fa-random"></i></li>
+                                <li><i class="fa-solid fa-step-backward"></i></li>
+                                <li class="play"><i class="fa-regular fa-play-circle"></i></li>
+                                <li><i class="fa-solid fa-step-forward"></i></li>
+                                <li><i class="fa-solid fa-redo-alt"></i></li>
+                            </ul>
+                        </div>
+                        <div class="middle-sidebarplay-bottom flex">
+                            <div class="time">0:25</div>
+                            <div class="music-bar"></div>
+                            <div class="time">4:35</div>
+                        </div>
+                    <!-- / Middle -->
 
-                <!-- Right -->    
+                    <!-- Right -->    
+                    </div>
+                    <div class="right-sidebarplay flex">
+                        <div><i class="fa-solid fa-list-ul btn-side"></i></div>
+                        <div><i class="fa-solid fa-desktop btn-side"></i></div>
+                        <div><i class="fa-solid fa-volume-up btn-side"></i></div>
+                        <div class="volume-bar"></div>
+                    </div>
+                    <!-- / Right -->
+                    
                 </div>
-                <div class="right-sidebarplay flex">
-                    <div><i class="fa-solid fa-list-ul btn-side"></i></div>
-                    <div><i class="fa-solid fa-desktop btn-side"></i></div>
-                    <div><i class="fa-solid fa-volume-up btn-side"></i></div>
-                    <div class="volume-bar"></div>
-                </div>
-                <!-- / Right -->
-                 
-            </div>
             <!-- /Sidebar-play -->
-        </section>
     </div>
 </body>
 </html>
